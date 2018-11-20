@@ -1,2 +1,5 @@
 language: python
 script: true
+
+after_success:
+  - codecov
