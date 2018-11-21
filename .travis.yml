@@ -2,4 +2,4 @@ language: python
 script: true
 
 after_success:
-  - coveralls
+  - npm run coveralls
